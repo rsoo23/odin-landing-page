@@ -4,12 +4,31 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.hero, .footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.introduction.subtext {
+  color: #e5e7eb;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+}
+
 ul {
   list-style-type: none;
   padding: 20px;
 }
 
-li {
+a {
   text-decoration: none;
+  color: #f9faf8;
 }
 
