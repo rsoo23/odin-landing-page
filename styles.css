@@ -2,6 +2,27 @@
 
 body {
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction {
+  display: flex;
+}
+
+.information-panel-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero, .footer {
@@ -12,10 +33,20 @@ body {
 .quote-section {
   background-color: #e5e7eb;
   color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-action-section {
+  color: #fff;
 }
 
 .introduction.subtext {
   color: #e5e7eb;
+}
+
+.sign-up-button {
+  color: #fff;
 }
 
 .call-to-action {
@@ -25,6 +56,9 @@ body {
 ul {
   list-style-type: none;
   padding: 20px;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 a {
