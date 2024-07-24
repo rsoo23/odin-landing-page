@@ -16,13 +16,31 @@ body {
   justify-content: space-between;
 }
 
+.header-logo {
+  font-size: 24px;
+}
+
 .introduction {
   display: flex;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.introduction.subtext {
+  font-size: 18px;
 }
 
 .information-panel-section {
   display: flex;
   flex-direction: column;
+}
+
+.information-panel-section > .title {
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .hero, .footer {
@@ -37,11 +55,17 @@ body {
   flex-direction: column;
 }
 
+.quote-section > .quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
 .call-to-action-section {
   color: #fff;
 }
 
-.introduction.subtext {
+.introduction > .subtext {
   color: #e5e7eb;
 }
 
