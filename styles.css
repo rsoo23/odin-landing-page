@@ -39,8 +39,9 @@ body {
   
 }
 
-.introduction > .content > .sign-up-button {
-  padding: 15px;
+.sign-up-button {
+  width: 100px;
+  height: 30px;
   margin: 10px 0px;
   border-radius: 10px;
   border: none;
@@ -119,6 +120,19 @@ body {
 .call-to-action-section {
   color: #fff;
   display: flex;
+  justify-content: space-around;
+  
+  margin: 50px 125px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.call-to-action-section > .sign-up-button {
+  border: 2px white solid;
+}
+
+.call-to-action-section > .text > .subtext {
+  margin: 0;
 }
 
 .introduction > .subtext {
@@ -131,6 +145,10 @@ body {
 
 .call-to-action {
   background-color: #3882f6;
+}
+
+.call-to-action-section > .text > .title {
+  margin: 0;
 }
 
 .footer {
