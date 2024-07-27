@@ -46,12 +46,6 @@ html, body {
   font-weight: 700;
 }
 
-.introduction > .content {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: space-between;*/
-}
-
 .introduction > .content > .subtext {
   font-size: 18px;
 }
