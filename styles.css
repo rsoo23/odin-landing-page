@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
+html, body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .hero {
@@ -32,11 +33,6 @@ body {
   justify-content: space-between;
   gap: 30px;
   width: 800px;
-  /*padding: 20px;*/
-}
-
-.introduction > .text {
-  
 }
 
 .sign-up-button {
@@ -59,13 +55,13 @@ body {
 .information-panel-section {
   display: flex;
   flex-direction: column;
-  padding: 10px 50px 30px 50px;
+  padding: 10px 100px 100px 100px;
 }
 
 .information-panel-section > .title {
   display: flex;
   justify-content: center;
-  padding: 30px 0px;
+  padding: 50px 0px;
   font-size: 36px;
   font-weight: 900;
 }
@@ -81,7 +77,8 @@ body {
 .information-panel-section > ul {
   display: flex;
   text-align: center;
-  gap: 30px;
+  gap: 50px;
+  justify-content: center;
 }
 
 .information-panel-section > ul > * {
@@ -89,6 +86,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  width: 150px;
 }
 
 .hero, .footer {
@@ -101,7 +99,8 @@ body {
   color: #1f2937;
   display: flex;
   flex-direction: column;
-  padding: 100px 170px;
+  padding: 130px 170px;
+  gap: 20px;
 }
 
 .quote-section > .quote {
@@ -160,7 +159,6 @@ body {
 
 ul {
   list-style-type: none;
-  padding: 20px;
   padding: 0;
   margin: 0;
   display: flex;
