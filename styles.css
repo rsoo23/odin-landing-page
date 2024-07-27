@@ -10,7 +10,7 @@ html, body {
 .hero {
   display: flex;
   flex-direction: column;
-  padding: 10px 100px 50px 100px;
+  padding: 10px 150px 100px 150px;
   gap: 100px;
 }
 
@@ -30,9 +30,7 @@ html, body {
 
 .introduction {
   display: flex;
-  justify-content: space-between;
   gap: 30px;
-  width: 800px;
 }
 
 .sign-up-button {
@@ -48,14 +46,20 @@ html, body {
   font-weight: 700;
 }
 
-.introduction.subtext {
+.introduction > .content {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+}
+
+.introduction > .content > .subtext {
   font-size: 18px;
 }
 
 .information-panel-section {
   display: flex;
   flex-direction: column;
-  padding: 10px 100px 100px 100px;
+  padding: 0 100px 100px 100px;
 }
 
 .information-panel-section > .title {
@@ -120,7 +124,6 @@ html, body {
   color: #fff;
   display: flex;
   justify-content: space-around;
-  
   margin: 90px 125px;
   padding: 40px;
   border-radius: 10px;
@@ -170,8 +173,8 @@ a {
 }
 
 img {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: auto;
   background-color: #ccc;
 }
 
